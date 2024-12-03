@@ -22,7 +22,10 @@
     background-color: aquamarine;
 } */
 
-
+main {
+    width: 60%;
+    margin: 20px auto;
+}
 
 .card {
     position: relative;
@@ -31,8 +34,21 @@
 .card__icon {
     position: absolute;
     right: 0;
+    top: 10px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+.card__icon2 {
+    position: absolute;
+    left: 0;
+    top: 380px;
+    
 }
 
 .card__icon svg {
     width: 24px;
 }
+
