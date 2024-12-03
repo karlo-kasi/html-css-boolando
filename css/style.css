@@ -1,6 +1,6 @@
 :root{
-
-    --botton: 
+    --price: red;
+    --discount: red;
 }
 
 * {
@@ -13,6 +13,9 @@ main {
     margin: 20px auto;
 }
 
+.price{
+    color: var(--price);
+}
 
 .flex {
 
@@ -42,7 +45,7 @@ main {
     position: absolute;
     left: 15px;
     bottom: 150px;
-    background-color: red;
+    background-color: var(--discount);
     color: white;
     padding-left: 10px;
     padding-right: 10px;
