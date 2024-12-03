@@ -1,4 +1,7 @@
+:root{
 
+    --botton: 
+}
 
 /* .box {
 
@@ -23,19 +26,29 @@
 } */
 
 main {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
+}
+
+h3 {
+
+}
+
+.flex {
+
+    display: flex;
 }
 
 .card {
     position: relative;
+    flex-basis: 33%;
+    padding: 10px;
 }
 
 .card__icon {
     position: absolute;
-    right: 0;
-    top: 10px;
-    display: flex;
+    right: 10px;
+    top: 20px;
     background-color: white;
     align-items: center;
     padding: 10px;
@@ -43,11 +56,28 @@ main {
 
 .card__icon2 {
     position: absolute;
-    left: 0;
-    top: 380px;
-    
+    left: 10px;
+    bottom: 150px;
+    background-color: red;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
+.card__icon3 {
+    position: absolute;
+    left: 67px;
+    bottom: 150px;
+    background-color: green;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+}
 .card__icon svg {
     width: 24px;
 }
