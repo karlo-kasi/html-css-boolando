@@ -31,7 +31,7 @@ main {
 
 .card__icon {
     position: absolute;
-    right: 10px;
+    right: 15px;
     top: 20px;
     background-color: white;
     align-items: center;
@@ -40,7 +40,7 @@ main {
 
 .card__icon2 {
     position: absolute;
-    left: 10px;
+    left: 15px;
     bottom: 150px;
     background-color: red;
     color: white;
@@ -52,7 +52,7 @@ main {
 
 .card__icon3 {
     position: absolute;
-    left: 77px;
+    left: 80px;
     bottom: 150px;
     background-color: green;
     color: white;
@@ -64,7 +64,7 @@ main {
 
 .card__icon4 {
     position: absolute;
-    left: 10px;
+    left: 15px;
     bottom: 150px;
     background-color: green;
     color: white;
@@ -100,10 +100,6 @@ main {
     
 }
 
-/* .img-second {
-    display: none;
-    z-index: 2;
-} */
 
 .product:hover .img-second {
     display: inline-block;
@@ -113,40 +109,3 @@ main {
     display: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-/* .product {
-    /* position: relative; */
-    /* width: 300px; 
-    height: 300px; 
-}  */
-
-/* .product img { */
-    /* position: absolute; */
-    /* top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-} */
-
-/* .product .hover-image {
-    opacity: 0; 
-  }
-
-  .product:hover .hover-image {
-    opacity: 1;
-  }
-
-  .product:hover .main-image {
-    opacity: 0;
-  } */
